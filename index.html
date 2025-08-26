@@ -8,6 +8,7 @@
     <title>News-homepage</title>
 </head>
 <body>
+    <section class="main">
     <header class="header-container">
          <div class="logo">
         <img src="logo.svg"  alt="logo">
@@ -19,12 +20,30 @@
             <span><a href="trending.html">Trending</a></span>
             <span><a href="categories.html">Categories</a></span>
     </nav>
+     <div class="ham" id="ham">
+        <img src="icon-menu.svg" width="25" height="25" alt="hamburger" class="ham">
+    </div>
+
     </header>
+    <div class="header-contentmobile"  id="header-contentmobile">
+     <nav class=" rapper" >
+            <span><a href="index.html">Home</a></span>
+            <span><a href="new.html">New</a></span>
+            <span><a href="popular.html">Popular</a></span>
+            <span><a href="trending.html">Trending</a></span>
+            <span><a href="categories.html">Categories</a></span>
+    </nav>
+     <div class="close" id="close">
+        <img src="icon-menu-close.svg" width="25" height="25" alt="close" class="close">
+    </div>
+    </div>
+   
     <main>
         <section class="main-section">
    <div class="main-container">
     <div class="main-img">
-        <img src="image-web-3-desktop.jpg" alt="web-3-desktop" class="main-img">
+        <img src="image-web-3-desktop.jpg" alt="web-3-desktop" class="des-img">
+        <img src="image-web-3-mobile.jpg" alt="wed-mobile" class="mobile-img">
     </div>
 <div class="main-content">
     <h1>
@@ -46,19 +65,36 @@
     <div class="side-text">
         <h3> Hydrogen VS Electric Cars</h3>
         <p>
-             Will hydrogen-fueled cars ever catch up to EVs?
+             Will hydrogen-fueled cars ever catch up    to EVs?
 
         </p>
+    </div>
+    <div class="side-text">
+        <h3>
+            The Downsides of AI Artistry 
+        </h3>
+        <p>
+            Will hydrogen-fueled cars ever catch up to EVs?
+ 
+        </p>
+    </div>
+    <div>
+        <h3>
+        Is VC Funding Drying Up?
+       </h3>
+       <p>
+ Private funding by VC firms is down 50% YOY. We take a look at what that means.
+       </p>
     </div>
 
    </div>
    </section>
-   <section>
+   <section class="bottom-section">
     <div>
-        <div>
-            <img src="" alt="">
+        <div class="bottom-img">
+            <img src="image-retro-pcs.jpg" alt="retro-pcs.jpg">
         </div>
-        <div>
+        <div class="bottom-text">
             <span>01</span>
         <h2> Reviving Retro PCs</h2>
         <p>
@@ -67,10 +103,10 @@
     </div>
     </div>
     <div>
-         <div>
-            <img src="" alt="">
+         <div class="bottom-img">
+            <img src="image-top-laptops.jpg" alt="top-laptops">
         </div>
-        <div>
+        <div class="bottom-text">
             <span>02</span>
         <h2>Top 10 Laptops of 2022</h2>
         <p>
@@ -79,10 +115,10 @@
     </div>
     </div>
     <div>
-        div>
-            <img src="" alt="">
+    <div class="bottom-img">
+            <img src="image-gaming-growth.jpg" alt="gaming-growth">
         </div>
-        <div>
+        <div class="bottom-text">
             <span>03</span>
         <h2>The Growth of Gaming</h2>
         <p>
@@ -90,6 +126,9 @@
         </p>
     </div>
     </div>
+    
    </section>
 </main>
+</section>
+<script src="/script.js"></script>
 </body>
