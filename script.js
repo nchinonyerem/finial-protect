@@ -10,7 +10,7 @@ headercontentMobile.classList.toggle("hidden")
 
 const close=document.getElementById("close");
 close.addEventListener("click",()=>{
-headercontentMobile.classList.remove("hidden")
+headercontentMobile.classList.add("hidden")
 console.log("test")
 })
 
